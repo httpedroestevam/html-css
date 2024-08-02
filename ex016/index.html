@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(165,165,165);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Floricultura Flor Amor</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Flores do momento</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perspiciatis minima fugit harum ratione quidem dignissimos culpa laborum ipsam voluptas? Aperiam, facere. Maiores voluptas cupiditate facere, nesciunt architecto officia eius.</p>
+                <aside>
+                    <p>Artigo escrito por Pedro Estevam</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro Estevam</p>
+    </footer>
+    
+</body>
+</html>
